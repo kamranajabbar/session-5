@@ -7,7 +7,7 @@ const Child2 = () => {
 
     return (
         <div>
-            <h2>This is 2ns child using CounterReducer </h2>
+            <h2>This is 2nd child using CounterReducer </h2>
             <h3>Value of reducer state is : {state}</h3>
             <button onClick={ () => dispatch('INCREMENT') }>Increment Reducer</button>
         </div>
